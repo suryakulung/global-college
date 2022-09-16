@@ -1,0 +1,309 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: 0 !important;
+}
+:root {
+    --bg-primary:#0E629E;
+    --color-099:#099;
+    --body:#F0F2F5;
+    --bs-blue: #0E629E;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --color-red:#F35369;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #1D7BE7;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+body{
+    background: var(--body);
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.sky{
+    color: #13AED4;
+}
+.bg-099{
+    background: #099;
+}
+.bg-blue{
+    background: #0E629E;
+}
+.gradian-1{
+    background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* ------------- My Root End ---------- */
+
+/* ---------------Nav Start -------------------*/
+ nav a{
+    font-size: 0.8rem;
+}
+nav>.container{
+    position: relative;
+    width: 100%;
+}
+.dropdown-menu{
+    width: 100%;
+    left: 0;
+    border: none;
+    padding: 0;
+}
+.dropdown-menu>.container{
+    padding: 5px;
+}
+.show{
+    margin-top: 0 !important;
+}
+@media only screen and (min-width:992px){
+    .dropdown-mega:hover>.dropdown-menu{
+        display:block;
+    }
+    .nav-link{
+        padding: 20px 0;
+    }
+}
+/* ---------------Nav End -------------------*/
+/* ========video display start=========== */
+.video .caption{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 50, 100, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ========video display end=========== */
+.section-admission a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 0.7rem;
+
+}
+.section-admission i{
+    font-size: 1.5rem;
+}
+.section-admission a:hover{
+    color: tomato;
+}
+.btn:hover{
+    background: tomato !important;
+    border: 1px solid #fff;
+   
+}
+
+.ceo-text h3{
+    background: #13AED4;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.ceo-text p{
+    font-size: 1.1rem;
+}
+
+.text-img{
+    box-shadow: 0 0 5px #ccc;
+    background: #fff;
+    border-radius: 10px;
+
+}
+.p-justify{
+    text-align: justify;
+}
+.ceo-right ul{
+    list-style: none;
+    box-shadow: 0 0 3px #ddd;
+}
+.ceo-right li{
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 2px solid #eee;
+}
+.ceo-right a{
+    text-decoration: none;
+    color: #13AED4;
+    font-weight: bold;
+}
+.ceo-right a:hover{
+    color: tomato;
+}
+.ceo-right a:hover .fa-angle-right{
+    margin-left: 5px;
+    transition: 0.3s;
+}
+.ceo-right li:hover{
+    background: #ddd;
+}
+.carousel-inner{
+    text-align: justify;
+}
+.owl-carousel .item{
+    box-shadow: 0 0 5px #ccc;
+    margin: 10px;
+}
+.owl-carousel .item:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.3s;
+    opacity: 0.5;
+}
+.owl-carousel h3{
+    color: #214982;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    font-size: 2rem;
+    font-weight:bolder;
+    width: 50px;
+}
+.one:hover, .two:hover, .three:hover{
+    box-shadow: 0 0 5px #aaa;
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.one a:hover,.two a:hover,.three a:hover{
+    text-decoration: underline;
+}
+.we-are{
+    background: #fff;
+}
+.carousel-indicators [data-bs-target]{
+    margin: 0;
+    background: #000;
+    border: 3px solid#fff;
+}
+textarea.form-control{
+    width: 96%;
+    margin: auto;
+}
+.web-form{
+    background-image: url(../images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.web-form::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+.form-row{
+    position: relative;
+    z-index: 100;
+}
+.event a{
+    color: var(--bs-orange);
+}
+/* -------------Footer Start-------------- */
+footer a{
+    color: #fff;
+}
+
+/* -------------Footer End-------------- */
+/* -----------Home Page End--------------- */
+/* ================================================================================================ */
+/* -----------About Page Start--------------- */
+.masthead{
+    background: url('../images/menu2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* min-height: 70vh; */
+    background-size: cover;
+}
+.masthead .caption{
+    width: 100%;
+    height:80vh;
+    background: rgba(0, 9, 9, 0.4);
+}
+.masthead h6{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.containt p{
+    text-align: justify;
+}
+
+.team{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.team-hover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(26,90,199,.7);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 0;
+    transition: all .3s;
+    color: #fff ;
+}
+.team:hover .team-hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+/* -----------About Page End--------------- */
+/* ==============FACULTY PAGE START============ */
+.listNav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.ln-letters a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+/* ==============FACULTY PAGE END ============ */
