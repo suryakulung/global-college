@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    
 }
 /* ============= root start =========== */
 .shadow-one{
@@ -16,21 +16,13 @@ a {
             rgba(127, 179, 213, 0.5),
             rgba(211, 84, 0, 0.2));
 }
+.bg-two{
+    background: #2471A3;
+}
 /* ============= root End   =========== */
 /* ============= Navbar Start   =========== */
-.navbar {
-    background: #2471A3;
-    transition: 300ms ease;
-}
-.showNav{
-    visibility: hidden;
-    transition: 0.3s ease;
-}
-.navbar-toggler{
-    background: #fff;
-}
-form .btn:hover{
-background: #229954 !important;
+.nav-link:hover{
+    color: orangered !important;
 }
 /* ============= Navbar End     =========== */
 .sponsor-logo img {
@@ -102,7 +94,7 @@ background: #229954 !important;
 
 .gradient-1 {
     height: 5px;
-    background: linear-gradient(20deg,#229954, #ABEBC6);
+    background: linear-gradient(270deg,#229954, #ABEBC6);
 }
 
 .hover-text {
@@ -114,31 +106,14 @@ background: #229954 !important;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    bottom: -70%;
-    visibility: hidden;
     transition: 0.5s;
-    opacity: 0;
-}
-.hover-bg {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    visibility: hidden;
-    transition: 0.5s;
-    opacity: 0;
-    background: rgba(40, 55, 71, 0.6);
+    text-shadow: 0 0 5px #000;
+    background: rgba(0, 0, 0, 0.5);
 }
 .card:hover .hover-bg{
     visibility: visible;
     opacity: 1;
 }
-.card:hover .hover-text {
-    visibility: visible;
-    bottom: 0;
-    opacity: 1;
-    cursor: pointer;
-}
-
 .card:hover img {
     transform: scale(1.1);
     transition: 0.5s;
@@ -185,9 +160,9 @@ background: #229954 !important;
 .svg-inline--fa{
     height: 20px;
     width: 20px;
-    background-color: #5D6D7E;
+    background-color: #1E8449;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     color: #fff;
  }
  .svg-inline--fa:hover{
