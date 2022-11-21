@@ -23,7 +23,7 @@ a {
 /* ============= root End   =========== */
 /* ============= Navbar Start   =========== */
 .nav-link:hover{
-    color: tomato !important;
+    color: orange !important;
 }
 .dropdown-menu a:hover{
     color: #fff;
